@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="icon" type="sprites/png" href="sprites/icon.png">
 <link rel = "stylesheet" href = "style.css">
 <title> Game wiki</title>
 
@@ -14,17 +14,40 @@
 </div>
 
 <div class = "buttons">
-    <button class = "secondBox"> Sign in </button>
-    <button class = "thirdBox"> Home </button>
-    <button class = "fourthBox"> Account </button>
+
+    <form action ="signIn.html">
+        <button class = "secondBox"> Sign in </button>
+    </form>
+
+    <form action ="main.html">
+        <button class = "thirdBox"> Home </button>
+    </form>
+
+    <form action ="account.html">
+        <button class = "fourthBox"> Account </button>
+    </form>
 </div>
 
 <div class = "gameBox">
-    <button class = "gameBox1"><img src = "sprites/rpgS.PNG"> </button>
-    <button class = "gameBox2"><img src = "sprites/survivalS.PNG"> </button>
-    <button class = "gameBox3"><img src = "sprites/horrorS.PNG"> </button>
-    <button class = "gameBox4"><img src = "sprites/racingS.PNG"> </button>
- </div>
+
+    <form action = "rpgP.html">
+        <button class = "gameBox1"><img src = "sprites/rpgS.PNG"> </button>
+    </form>
+
+    <form action ="survivalP.html">
+        <button class = "gameBox2"><img src = "sprites/survivalS.PNG"> </button>
+    </form>
+
+    <form action ="horrorP.html">
+        <button class = "gameBox3"><img src = "sprites/horrorS.PNG"> </button>
+    </form>
+
+    <form action ="racingP.html">
+        <button class = "gameBox4"><img src = "sprites/racingS.PNG"> </button>
+    </form>
+
+</div>
+
 </body>
 
 </html>
