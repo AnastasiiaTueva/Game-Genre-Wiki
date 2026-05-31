@@ -4,10 +4,12 @@ body{
 
 }
 
+
+
 .mainBox{
 
-    width: 100;
-    height: 300;
+    width: 100%;
+    height: 120px;
     background-color: #DB0F57;
     text-align: center;
     font-size: 100px;
@@ -18,7 +20,15 @@ body{
     transition: transform 0.3s ease;
 }
 
+.mainBox:hover {
+  background-color: #DB0F57;
+  color: rgb(159, 252, 228);
+}
+
+
+
 .buttons{
+    justify-content: center;
     display: flex;
     gap: 20px;
     width: 100%;
@@ -28,7 +38,7 @@ body{
 .secondBox{
     
     margin-top: 20px;
-    width: 100px;
+    width: 250px;
     height: 100px;
     background-color: #DB0F57;
     text-align: center;
@@ -79,6 +89,23 @@ body{
 
 }
 
+.secondBox:hover {
+  background-color: #941354;
+  color: white;
+}
+
+.thirdBox:hover {
+  background-color: #941354;
+  color: white;
+}
+
+.fourthBox:hover {
+  background-color: #941354;
+  color: rgb(159, 252, 228);
+}
+
+
+
 .gameBox{
     margin-top: 40px;
     display: flex;
@@ -86,6 +113,14 @@ body{
     justify-content: center;
     transition: transform 0.3s ease;
     flex-wrap: wrap;
+
+}
+
+.gameBox img{
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 3px #2451b3);
+    transition: transform 0.6s ease;
 }
 
 .gameBox1{
@@ -98,12 +133,7 @@ body{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
-.gameBox img{
-    width: 300px;
-    height: 300px;
-    filter: drop-shadow(0 0 3px #2451b3);
-    transition: transform 0.6s ease;
-}
+
 
 .gameBox2{
     
@@ -178,25 +208,4 @@ body{
 .gameBox4:hover img{
     transform:scale(1.05);
     filter: brightness(1.5) saturate(1.9) drop-shadow(0 0 3px #2451b3);
-}
-
-
-.secondBox:hover {
-  background-color: #941354;
-  color: white;
-}
-
-.thirdBox:hover {
-  background-color: #941354;
-  color: white;
-}
-
-.fourthBox:hover {
-  background-color: #941354;
-  color: rgb(159, 252, 228);
-}
-
-.mainBox:hover {
-  background-color: #DB0F57;
-  color: rgb(159, 252, 228);
 }
