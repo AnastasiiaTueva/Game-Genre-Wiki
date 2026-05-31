@@ -1,0 +1,22 @@
+body{
+
+    background-color: #0D2D72;
+
+}
+
+.accInfo{
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    color: #37c3fa;
+    text-shadow: 4px 4px 12px #058EC3;
+    background-color: #DB0F57;
+    border-radius: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5);
+
+}

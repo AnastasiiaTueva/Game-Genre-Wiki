@@ -1,0 +1,39 @@
+.gameBoxR{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gameBoxRACING{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #DB0F57;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gameBoxR img{
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 3px #2451b3);
+    transition: transform 0.6s ease;
+}
+
+.gameBoxRACING:hover {
+    transform:scale(1.1);
+    
+}
+
+.gameBoxRACING:hover img{
+
+    transform:scale(1.05);
+    filter: brightness(1.5) saturate(1.9) drop-shadow(0 0 3px #2451b3);
+    
+}
